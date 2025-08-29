@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP generator</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+   
+        <h1>OTP Generator And Verifier</h1><br>
+        
+        <div>
+        <form>
+            <div class="enterotp">
+            <label for="i1" >Enter Length Of OTP - </label>
+            <input type="number" id="i1"><br>
+            </div>
+            <button onclick="getOtp()" id="b1">click here to get otp</button><br>
+            <p id="p1"></p><br>
+            <div class="verifyOtp">
+            <label for="i2">Enter OTP -</label>
+            <input type="text" id="i2"><br>
+            </div>
+            <button onclick="verifyOtp()" id="b2">click here to verify otp</button><br>
+        </form>
+    </div>
+        <p id="p2"></p>
+</body>
+<script src="logic.js"></script>
+</html>

@@ -1,0 +1,38 @@
+body{
+    background-color: blueviolet;
+    text-align: center;
+    }
+
+h1{
+    padding: 20px;
+    text-align: center;
+    color: yellowgreen;
+    font-weight: bolder;
+}
+
+.enterotp{
+    display: block;
+    width: 500px;
+    padding: 20px;
+    margin: auto;
+    background-color: whitesmoke;
+}
+.verifyOtp{
+     width: 500px;
+    padding: 20px;
+    margin: auto;
+    background-color: whitesmoke;
+}
+button{
+    margin: 20px;
+    padding: 20px;
+    
+}
+p{ display: none;
+     width:max-content;
+    margin: auto;
+    padding: 20px;
+    background-color:wheat;
+  font-weight: bolder;
+  border-radius: 30px;
+}
